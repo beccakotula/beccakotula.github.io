@@ -1,0 +1,14 @@
+name: "becca-website"
+navbar:
+  title: "Becca's website"
+  left:
+    - text: "Home"
+      href: index.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<becca.kotula@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/beccakotula/
+output:
+  html_document:
+    theme: default

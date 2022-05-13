@@ -1,0 +1,19 @@
+---
+title: "Hi JP!!"
+---
+
+I love you!
+
+
+Here are some runs I did:
+```{r, echo=FALSE, results='hide', message=FALSE}
+library(tidyverse)
+```
+
+
+```{r, echo=FALSE}
+activities <- read.csv("~/Documents/Activities.csv")
+cols_to_keep <- c("Distance", "Calories", "Time", "Avg.Run.Cadence", "Avg.Pace", "Moving.Time") # "Date"
+activities <- activities[cols_to_keep]
+activities
+```
