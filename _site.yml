@@ -9,7 +9,7 @@ navbar:
       href: mailto:<becca.kotula@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/beccakotula/
-output_dir: "docs"
-#output:
-#  html_document:
-#    theme: default
+output:
+  html_document:
+    theme: default
+
